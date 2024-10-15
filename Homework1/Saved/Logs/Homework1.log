@@ -1408,3 +1408,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.15-23.25.47:948][  2]LogD3D12RHI: Cannot end block when stack is empty
 [2024.10.15-23.25.53:073][503]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.10.15-23.25.53:141][504]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.15-23.27.41:836][411]LogDerivedDataCache: C:/Users/eckho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.162 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 889 files in 1531 folders with total size 24 MiB.
