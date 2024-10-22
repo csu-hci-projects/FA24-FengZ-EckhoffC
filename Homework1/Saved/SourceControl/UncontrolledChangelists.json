@@ -10,6 +10,14 @@
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap",
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Menu.umap",
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/UI/UI/Start_Menu.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/UI/UI/User_Interface.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/BP_target.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/Ammo_pickup.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/Spike_Trap.uasset",
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.uasset",
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset",
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01.uasset",
@@ -78,11 +86,7 @@
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/3/9Y/O1HBCAIOGYKE5W89K0N3EC.uasset",
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0W/E1FKEGVKGOLM7HGLQPCIPO.uasset",
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Maps/FirstPersonMap.umap",
-				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/UI/UI/Start_Menu.uasset",
-				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/UI/UI/End_Menu.uasset",
-				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/UI/UI/User_Interface.uasset",
-				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
-				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset"
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/UI/UI/End_Menu.uasset"
 			]
 		}
 	]
