@@ -2067,3 +2067,288 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.26-17.16.27:941][ 52]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
 [2024.10.26-17.16.28:771][126]BlueprintLog: New page: Compile BP_FirstPersonCharacter
 [2024.10.26-17.16.28:826][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.26-17.17.29:105][728]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.26-17.17.29:109][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.26-17.17.29:109][728]PIE: New page: PIE session: Menu (Oct 26, 2024, 5:17:29 AM)
+[2024.10.26-17.17.29:109][728]LogPlayLevel: Display: Creating online subsystem for client :Context_35
+[2024.10.26-17.17.29:111][728]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.10.26-17.17.29:116][729]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Menu
+[2024.10.26-17.17.29:117][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001184s)
+[2024.10.26-17.17.29:117][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Menu.Menu to /Game/Levels/UEDPIE_0_Menu.Menu (0.001227s)
+[2024.10.26-17.17.29:130][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.10.26-17.17.29:137][729]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.17.29:137][729]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.17.29:137][729]LogAIModule: Creating AISystem for world Menu
+[2024.10.26-17.17.29:137][729]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2024.10.26-17.17.29:137][729]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.10.26-17.17.29:137][729]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.26-17.17.29:137][729]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.26-17.17.29:137][729]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.26-17.17.29:137][729]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.26-17.17.29:137][729]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.26-17.17.29:137][729]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.26-17.17.29:137][729]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.26-17.17.29:137][729]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.26-17.17.29:138][729]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.26-17.17.29:138][729]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.26-17.17.29:138][729]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.26-17.17.29:140][729]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.26-17.17.29:156][729]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2024.10.26-17.17.29:156][729]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.26-17.17.29:156][729]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.26-17.17.29:156][729]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.26-17.17.29:157][729]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.10.26-17.17.29:157][729]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2024.10.26-17.17.29:159][729]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.10.26-17.17.29:159][729]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.10.26-17.17.29:159][729]LogInit: FAudioDevice initialized with ID 11.
+[2024.10.26-17.17.29:159][729]LogAudio: Display: Audio Device (ID: 11) registered with world 'Menu'.
+[2024.10.26-17.17.29:159][729]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.10.26-17.17.29:163][729]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.26-17.17.29:163][729]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2024.10.26-11.17.29
+[2024.10.26-17.17.29:163][729]LogWorld: Bringing up level for play took: 0.000288
+[2024.10.26-17.17.29:166][729]PIE: Server logged in
+[2024.10.26-17.17.29:166][729]PIE: Play in editor total start time 0.057 seconds.
+[2024.10.26-17.17.34:572][335]LogNet: Browse: /Game/Levels/Level1
+[2024.10.26-17.17.34:572][335]LogLoad: LoadMap: /Game/Levels/Level1
+[2024.10.26-17.17.34:572][335]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Menu
+[2024.10.26-17.17.34:573][335]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.17.34:573][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.17.34:606][335]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.26-17.17.34:608][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.10.26-17.17.34:617][335]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level1'.
+[2024.10.26-17.17.34:617][335]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.17.34:617][335]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.17.34:617][335]LogAIModule: Creating AISystem for world Level1
+[2024.10.26-17.17.34:618][335]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2024.10.26-17.17.34:618][335]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.26-17.17.34:631][335]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.26-11.17.34
+[2024.10.26-17.17.34:632][335]LogWorld: Bringing up level for play took: 0.013321
+[2024.10.26-17.17.34:635][335]LogLoad: Took 0.063035 seconds to LoadMap(/Game/Levels/Level1)
+[2024.10.26-17.17.43:552][301]LogNet: Browse: /Game/Levels/Level2
+[2024.10.26-17.17.43:552][301]LogLoad: LoadMap: /Game/Levels/Level2
+[2024.10.26-17.17.43:552][301]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2024.10.26-17.17.43:553][301]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.17.43:554][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.17.43:597][301]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.26-17.17.43:599][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.10.26-17.17.43:605][301]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level2'.
+[2024.10.26-17.17.43:605][301]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.17.43:605][301]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.17.43:606][301]LogAIModule: Creating AISystem for world Level2
+[2024.10.26-17.17.43:606][301]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2024.10.26-17.17.43:606][301]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.26-17.17.43:613][301]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2024.10.26-11.17.43
+[2024.10.26-17.17.43:614][301]LogWorld: Bringing up level for play took: 0.007201
+[2024.10.26-17.17.43:616][301]LogLoad: Took 0.062966 seconds to LoadMap(/Game/Levels/Level2)
+[2024.10.26-17.18.11:004][458]Cmd: quit
+[2024.10.26-17.18.11:005][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.26-17.18.11:005][458]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.10.26-17.18.11:036][458]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.18.11:036][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.18.11:039][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.26-17.18.11:043][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.18.11:052][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.26-17.18.11:052][458]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.10.26-17.18.11:052][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.10.26-17.18.11:054][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.10.26-17.18.11:059][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.26-17.18.11:110][462]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.10.26-17.18.23:780][896]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup
+[2024.10.26-17.18.23:781][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.18.23:781][896]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.21.21:178][662]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.21.21:182][662]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.21.21:226][662]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.21.21:226][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.21.21:262][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.26-17.21.21:262][662]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.21.21:262][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.22.03:965][338]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup
+[2024.10.26-17.22.03:966][338]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.22.03:966][338]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.22.44:099][958]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.22.44:104][958]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.22.44:146][958]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.22.44:146][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.22.47:022][277]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.26-17.22.47:023][277]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.22.47:023][277]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.26.50:145][926]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.26-17.26.50:150][926]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.26-17.26.50:185][926]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.26.50:185][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.26.54:297][391]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_STarget.BP_STarget
+[2024.10.26-17.26.54:297][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.26.54:297][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.30.00:124][805]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-17.30.00:188][805]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_STarget
+[2024.10.26-17.30.00:188][805]LogSavePackage: Moving '../../../../../../Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Saved/BP_STargetB91EAF0F45378CBC4B54118535E91534.tmp' to '../../../../../../Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/BP_STarget.uasset'
+[2024.10.26-17.30.00:195][805]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.42 sec)
+[2024.10.26-17.30.00:196][805]AssetCheck: New page: Asset Save: BP_STarget
+[2024.10.26-17.30.00:196][805]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_STarget.BP_STarget
+[2024.10.26-17.30.00:687][850]BlueprintLog: New page: Compile BP_STarget
+[2024.10.26-17.30.00:713][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.10.26-17.30.01:686][954]LogSlate: Window 'BP_STarget' being destroyed
+[2024.10.26-17.30.01:692][954]LogSlate: Window 'BP_STarget' being destroyed
+[2024.10.26-17.30.01:716][954]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.30.01:716][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.30.04:516][243]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup
+[2024.10.26-17.30.04:517][243]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.30.04:517][243]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.31.02:685][961]LogSlate: Window 'Health_pickup' being destroyed
+[2024.10.26-17.31.02:690][961]LogSlate: Window 'Health_pickup' being destroyed
+[2024.10.26-17.31.02:693][961]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.31.02:693][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.31.04:746][155]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap
+[2024.10.26-17.31.04:746][155]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.31.04:746][155]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.31.32:475][835]LogSlate: Window 'Spike_Trap' being destroyed
+[2024.10.26-17.31.32:480][835]LogSlate: Window 'Spike_Trap' being destroyed
+[2024.10.26-17.31.32:506][835]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.31.32:506][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.31.34:479][ 31]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.26-17.31.34:479][ 31]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.31.34:479][ 31]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.32.04:052][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.10.26-17.32.04:055][520]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Menu' took 0.017
+[2024.10.26-17.32.04:056][520]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/Spike_Trap] ([2] browsable assets)...
+[2024.10.26-17.32.04:056][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/Spike_Trap]
+[2024.10.26-17.32.04:067][520]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/Spike_Trap_Auto2
+[2024.10.26-17.32.04:067][520]LogSavePackage: Moving '../../../../../../Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Saved/Spike_Trap_Auto214297AE3488B8CAD17D52E920D3A8CF7.tmp' to '../../../../../../Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Saved/Autosaves/Game/FirstPerson/Blueprints/Spike_Trap_Auto2.uasset'
+[2024.10.26-17.32.04:068][520]LogFileHelpers: Auto-saving content packages took 0.012
+[2024.10.26-17.32.58:502][436]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.26-17.32.58:507][436]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.26-17.32.58:545][436]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.32.58:545][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.33.13:950][ 64]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup
+[2024.10.26-17.33.13:950][ 64]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.33.13:950][ 64]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.34.04:775][973]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.34.04:780][973]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.34.04:806][973]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.34.04:806][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.34.07:599][285]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.26-17.34.07:599][285]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.34.07:599][285]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.36.28:319][836]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup
+[2024.10.26-17.36.28:319][836]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.36.28:319][836]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.37.20:534][835]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.37.20:539][835]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.37.20:566][835]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.37.20:566][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.37.20:613][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.26-17.37.20:613][835]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.37.20:613][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.37.22:903][ 85]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.26-17.37.22:903][ 85]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.37.22:903][ 85]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.41.11:953][720]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.26-17.41.11:958][720]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.26-17.41.11:960][720]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.41.11:960][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.41.15:363][ 98]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_STarget.BP_STarget
+[2024.10.26-17.41.15:363][ 98]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.41.15:364][ 98]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.43.28:049][390]LogEditorTransaction: Undo Delete current selection
+[2024.10.26-17.43.41:920][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-17.43.42:012][946]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_STarget
+[2024.10.26-17.43.42:013][946]LogSavePackage: Moving '../../../../../../Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Saved/BP_STargetB20B8B3E4FC6E70BC982E49C26787356.tmp' to '../../../../../../Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Content/FirstPerson/Blueprints/BP_STarget.uasset'
+[2024.10.26-17.43.42:020][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 1.52 sec)
+[2024.10.26-17.43.42:021][946]AssetCheck: New page: Asset Save: BP_STarget
+[2024.10.26-17.43.42:021][946]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_STarget.BP_STarget
+[2024.10.26-17.43.42:548][999]BlueprintLog: New page: Compile BP_STarget
+[2024.10.26-17.43.42:577][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.10.26-17.43.44:784][226]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.26-17.43.44:789][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.26-17.43.44:789][226]PIE: New page: PIE session: Menu (Oct 26, 2024, 5:43:44 AM)
+[2024.10.26-17.43.44:816][226]LogPlayLevel: Display: Creating online subsystem for client :Context_48
+[2024.10.26-17.43.44:818][226]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.10.26-17.43.44:822][227]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Menu
+[2024.10.26-17.43.44:824][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001773s)
+[2024.10.26-17.43.44:824][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Menu.Menu to /Game/Levels/UEDPIE_0_Menu.Menu (0.001808s)
+[2024.10.26-17.43.44:835][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.26-17.43.44:838][227]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.43.44:838][227]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.43.44:839][227]LogAIModule: Creating AISystem for world Menu
+[2024.10.26-17.43.44:839][227]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2024.10.26-17.43.44:839][227]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.10.26-17.43.44:839][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.26-17.43.44:839][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.26-17.43.44:839][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.26-17.43.44:839][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.26-17.43.44:839][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.26-17.43.44:839][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.26-17.43.44:839][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.26-17.43.44:839][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.26-17.43.44:839][227]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.26-17.43.44:839][227]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.26-17.43.44:839][227]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.26-17.43.44:841][227]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.26-17.43.44:858][227]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2024.10.26-17.43.44:858][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.26-17.43.44:858][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.26-17.43.44:858][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.26-17.43.44:860][227]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.10.26-17.43.44:860][227]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=12
+[2024.10.26-17.43.44:861][227]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.10.26-17.43.44:861][227]LogInit: FAudioDevice initialized with ID 12.
+[2024.10.26-17.43.44:861][227]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.10.26-17.43.44:861][227]LogAudio: Display: Audio Device (ID: 12) registered with world 'Menu'.
+[2024.10.26-17.43.44:861][227]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.26-17.43.44:863][227]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.26-17.43.44:863][227]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2024.10.26-11.43.44
+[2024.10.26-17.43.44:863][227]LogWorld: Bringing up level for play took: 0.000265
+[2024.10.26-17.43.44:866][227]PIE: Server logged in
+[2024.10.26-17.43.44:867][227]PIE: Play in editor total start time 0.078 seconds.
+[2024.10.26-17.43.45:781][325]LogNet: Browse: /Game/Levels/Level1
+[2024.10.26-17.43.45:781][325]LogLoad: LoadMap: /Game/Levels/Level1
+[2024.10.26-17.43.45:781][325]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Menu
+[2024.10.26-17.43.45:781][325]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.43.45:781][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.43.45:826][325]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.26-17.43.45:828][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.26-17.43.45:837][325]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level1'.
+[2024.10.26-17.43.45:837][325]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.43.45:837][325]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.43.45:838][325]LogAIModule: Creating AISystem for world Level1
+[2024.10.26-17.43.45:838][325]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2024.10.26-17.43.45:838][325]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.26-17.43.45:846][325]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.26-11.43.45
+[2024.10.26-17.43.45:846][325]LogWorld: Bringing up level for play took: 0.007476
+[2024.10.26-17.43.45:848][325]LogLoad: Took 0.067562 seconds to LoadMap(/Game/Levels/Level1)
+[2024.10.26-17.43.53:696][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.26-17.43.53:696][188]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2024.10.26-17.43.53:696][188]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.43.53:697][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.43.53:700][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.26-17.43.53:703][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.43.53:714][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.26-17.43.53:714][188]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.26-17.43.53:714][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.26-17.43.53:715][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.26-17.43.53:721][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.10.26-17.43.53:761][191]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.10.26-17.44.16:376][781]LogSlate: Window 'BP_STarget' being destroyed
+[2024.10.26-17.44.16:381][781]LogSlate: Window 'BP_STarget' being destroyed
+[2024.10.26-17.44.16:416][781]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.44.16:416][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.44.32:658][158]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup
+[2024.10.26-17.44.32:658][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.44.32:658][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.45.36:856][559]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.45.36:861][559]LogSlate: Window 'Ammo_pickup' being destroyed
+[2024.10.26-17.45.36:886][559]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-17.45.36:886][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-17.45.38:721][752]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.26-17.45.38:721][752]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-17.45.38:721][752]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-17.47.21:003][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.10.26-17.47.21:008][572]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Menu' took 0.020
+[2024.10.26-17.47.21:008][572]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/Spike_Trap] ([2] browsable assets)...
+[2024.10.26-17.47.21:009][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/Spike_Trap]
+[2024.10.26-17.47.21:019][572]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/Spike_Trap_Auto3
+[2024.10.26-17.47.21:021][572]LogSavePackage: Moving '../../../../../../Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Saved/Spike_Trap_Auto3F09C11024CAC64925709A2840EF160B0.tmp' to '../../../../../../Users/eckho/Desktop/FA24-FengZ-EckhoffC/Homework1/Saved/Autosaves/Game/FirstPerson/Blueprints/Spike_Trap_Auto3.uasset'
+[2024.10.26-17.47.21:022][572]LogFileHelpers: Auto-saving content packages took 0.013
+[2024.10.26-17.54.09:519][983]LogDerivedDataCache: C:/Users/eckho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.057 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 898 files in 1539 folders with total size 24 MiB.
