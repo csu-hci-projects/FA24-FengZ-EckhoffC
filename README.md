@@ -20,7 +20,8 @@
 
 ## What was used
   We used all of the lab videos which allowed us to make most of the required assets, we used the corresponding book chapters as well, and then we also used the following items:
-  * https://www.youtube.com/watch?app=desktop&v=PVgMkUwhtoM 
+  * https://www.youtube.com/watch?app=desktop&v=PVgMkUwhtoM
+  * https://www.youtube.com/watch?v=iUsZrBfWEIQ
 
 ## Meeting times
   * Set meeting at: Saturday at 1PM
