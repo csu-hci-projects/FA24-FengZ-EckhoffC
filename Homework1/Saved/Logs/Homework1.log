@@ -1929,3 +1929,505 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2024.10.28-22.28.31:673][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
 [2024.10.28-22.28.31:673][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
 [2024.10.28-22.28.31:893][133]EditorErrors: Warning: No assets to check in!
+[2024.10.28-22.29.54:166][893]Cmd: DUPLICATE
+[2024.10.28-22.29.54:166][893]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.30.21:475][ 16]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Total job queries 3,724, among them cache hits 28 (0.75%)
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Tracking 3,689 distinct input hashes that result in 2,651 distinct outputs (71.86%)
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: RAM used: 68.03 MiB of 1.60 GiB budget. Usage: 4.15%
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Shaders Compiled: 3,689
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Jobs assigned 3,692, completed 3,689 (99.92%)
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Average time worker was idle: 19.08 s
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Time job spent in pending queue: average 190.95 s, longest 387.34 s
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Job execution time: average 5.55 s, max 24.23 s
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Job life time (pending + execution): average 196.66 s, max 399.87
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Shader code size: average 38.237 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 447.07 s
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Jobs were issued in 444 batches (only local compilation was used), average 8.32 jobs/batch
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Average processing rate: 8.25 jobs/sec
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Total thread time: 2,073.42 s
+[2024.10.28-22.30.22:359][ 37]LogShaderCompilers: Display: Total thread preprocess time: 145.423 s
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display: Percentage time preprocessing: 7.01%
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display: Effective parallelization: 4.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.24 sec, max 13.84 sec, min 1.87 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.39 sec, max 7.01 sec, min 4.13 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 3.17 sec, max 3.17 sec, min 3.17 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 2.20 sec, max 2.20 sec, min 2.20 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.13 sec, max 3.21 sec, min 1.28 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.33% of total time (compiled  134 times, average 1.75 sec, max 2.97 sec, min 1.31 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.22% of total time (compiled   96 times, average 1.13 sec, max 2.05 sec, min 0.70 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.26% of total time (compiled   96 times, average 0.92 sec, max 1.47 sec, min 0.23 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.22% of total time (compiled  128 times, average 0.68 sec, max 3.96 sec, min 0.22 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.94% of total time (compiled  128 times, average 0.64 sec, max 1.28 sec, min 0.45 sec)
+[2024.10.28-22.30.22:360][ 37]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.30.24:220][ 98]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.30.28:987][289]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.30.41:400][760]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.10.28-22.30.41:400][760]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.10.28-22.30.41:401][760]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 as actor: StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_34
+[2024.10.28-22.30.42:954][815]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.10.28-22.30.42:954][815]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.10.28-22.30.42:956][815]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 as actor: StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_35
+[2024.10.28-22.30.49:167][ 78]Cmd: DUPLICATE
+[2024.10.28-22.30.49:167][ 78]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.30.51:957][193]Cmd: EDIT CUT
+[2024.10.28-22.30.51:963][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.10.28-22.30.51:990][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.10.28-22.30.51:992][193]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2024.10.28-22.30.53:215][243]Cmd: EDIT CUT
+[2024.10.28-22.30.53:221][243]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.10.28-22.30.53:245][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.10.28-22.30.53:247][243]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.10.28-22.31.18:673][355]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2024.10.28-22.31.18:739][355]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Level1_Auto1
+[2024.10.28-22.31.18:740][355]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level1_Auto117CFA10545F9FB3E0DAB91BF3D79D0FD.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
+[2024.10.28-22.31.18:746][355]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Autosaves/Game/Levels/Level1_Auto1.umap is in the /Temp path, will not scan.
+[2024.10.28-22.31.18:747][355]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1' took 0.139
+[2024.10.28-22.31.18:747][355]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.139
+[2024.10.28-22.31.51:135][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.31.51:219][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-22.31.51:276][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.28-22.31.51:318][288]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.10.28-22.31.51:319][288]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level1320636A64A48444FBA59D5A5FB816F81.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap'
+[2024.10.28-22.31.51:331][288]LogFileHelpers: Saving map 'Level1' took 0.113
+[2024.10.28-22.31.51:343][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 2.13 sec)
+[2024.10.28-22.31.51:345][288]AssetCheck: New page: Asset Save: Level1
+[2024.10.28-22.31.51:345][288]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.10.28-22.31.53:724][387]MapCheck: New page: Map Check
+[2024.10.28-22.31.53:799][387]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2024.10.28-22.31.53:799][387]MapCheck: New page: Level1 - Oct 28, 2024, 10:31:53 AM
+[2024.10.28-22.31.53:800][387]MapCheck: Warning: Floor Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2024.10.28-22.31.53:800][387]MapCheck: Warning: StaticMeshActor_1 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2024.10.28-22.31.53:800][387]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 1.067ms to complete.
+[2024.10.28-22.31.53:800][387]LogEditorBuildUtils: Build time 0:00
+[2024.10.28-22.31.58:699][604]LogSlate: Window 'Message Log' being destroyed
+[2024.10.28-22.31.58:733][604]LogSlate: Window 'Message Log' being destroyed
+[2024.10.28-22.32.21:736][325]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.10.28-22.32.21:821][326]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.32.21:996][327]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.32.33:756][790]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2254.674561
+[2024.10.28-22.32.33:873][795]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.28-22.32.33:873][795]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2254.767822, Update Interval: 308.454224
+[2024.10.28-22.33.04:587][895]LogSlate: Window 'Message Log' being destroyed
+[2024.10.28-22.33.04:627][895]LogSlate: Window 'Message Log' being destroyed
+[2024.10.28-22.33.16:306][292]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor
+[2024.10.28-22.33.16:420][292]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.33.16:420][292]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-22.33.17:669][292]LogViewport: Scene viewport resized to 1403x858, mode Windowed.
+[2024.10.28-22.33.18:710][294]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x21 sparse distance field, 0.5Mb total, 0.0Mb always loaded, 80% occupied, 3 triangles, Floor_Mesh
+[2024.10.28-22.33.26:308][460]LogSlate: Took 0.000531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Total job queries 3,760, among them cache hits 32 (0.85%)
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Tracking 3,718 distinct input hashes that result in 2,662 distinct outputs (71.60%)
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: RAM used: 68.61 MiB of 1.60 GiB budget. Usage: 4.19%
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Shaders Compiled: 3,718
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Jobs assigned 3,722, completed 3,718 (99.89%)
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Average time worker was idle: 19.38 s
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Time job spent in pending queue: average 189.42 s, longest 387.34 s
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Job execution time: average 5.52 s, max 24.23 s
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Job life time (pending + execution): average 195.14 s, max 399.87
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Shader code size: average 38.209 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 454.83 s
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Jobs were issued in 474 batches (only local compilation was used), average 7.85 jobs/batch
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Average processing rate: 8.17 jobs/sec
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Total thread time: 2,092.371 s
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Total thread preprocess time: 147.555 s
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Percentage time preprocessing: 7.05%
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Effective parallelization: 4.60 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.24 sec, max 13.84 sec, min 1.87 sec)
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.39 sec, max 7.01 sec, min 4.13 sec)
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 3.17 sec, max 3.17 sec, min 3.17 sec)
+[2024.10.28-22.33.27:957][495]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 2.20 sec, max 2.20 sec, min 2.20 sec)
+[2024.10.28-22.33.27:958][495]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.13 sec, max 3.21 sec, min 1.28 sec)
+[2024.10.28-22.33.27:958][495]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.28-22.33.27:958][495]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.22% of total time (compiled  134 times, average 1.75 sec, max 2.97 sec, min 1.31 sec)
+[2024.10.28-22.33.27:958][495]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.17% of total time (compiled   96 times, average 1.13 sec, max 2.05 sec, min 0.70 sec)
+[2024.10.28-22.33.27:958][495]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.22% of total time (compiled   96 times, average 0.92 sec, max 1.47 sec, min 0.23 sec)
+[2024.10.28-22.33.27:958][495]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.18% of total time (compiled  128 times, average 0.68 sec, max 3.96 sec, min 0.22 sec)
+[2024.10.28-22.33.27:958][495]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.90% of total time (compiled  128 times, average 0.64 sec, max 1.28 sec, min 0.45 sec)
+[2024.10.28-22.33.27:958][495]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.33.34:615][650]LogStaticMesh: Display: Building static mesh SM_Template_Map_Floor...
+[2024.10.28-22.33.34:623][650]LogStaticMesh: Built static mesh [0.01s] /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor
+[2024.10.28-22.33.35:020][658]SourceControl: fatal: I:/UE_5.3/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'I:/UE_5.3/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.33.35:943][682]SourceControl: fatal: I:/UE_5.3/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'I:/UE_5.3/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.33.36:230][689]LogMeshUtilities: Finished distance field build in 1.6s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 100% occupied, 32 triangles, SM_Template_Map_Floor
+[2024.10.28-22.33.50:230][ 29]SourceControl: fatal: I:/UE_5.3/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'I:/UE_5.3/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.33.50:236][ 29]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.33.50:338][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/MapTemplates/SM_Template_Map_Floor" FILE="../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" SILENT=true
+[2024.10.28-22.33.50:347][ 29]LogSavePackage: Moving output files for package: /Engine/MapTemplates/SM_Template_Map_Floor
+[2024.10.28-22.33.50:352][ 29]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/SM_Template_Map_FloorEEE5DA604D75621FE8FA7293D2614030.tmp' to '../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset'
+[2024.10.28-22.33.50:373][ 29]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 2.26 sec)
+[2024.10.28-22.33.50:384][ 29]AssetCheck: New page: Asset Save: SM_Template_Map_Floor
+[2024.10.28-22.33.50:384][ 29]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor
+[2024.10.28-22.33.50:575][ 36]SourceControl: fatal: I:/UE_5.3/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'I:/UE_5.3/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.33.51:152][ 51]LogSlate: Window 'SM_Template_Map_Floor' being destroyed
+[2024.10.28-22.33.51:193][ 51]LogSlate: Window 'SM_Template_Map_Floor' being destroyed
+[2024.10.28-22.33.51:270][ 51]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-22.33.51:270][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.34.34:109][611]Cmd: TRANSACTION UNDO
+[2024.10.28-22.34.34:109][611]LogEditorTransaction: Undo Reset to Default
+[2024.10.28-22.34.57:784][578]Cmd: TRANSACTION UNDO
+[2024.10.28-22.34.57:784][578]LogEditorTransaction: Undo Move Elements
+[2024.10.28-22.35.35:293][ 69]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.35.35:522][ 72]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.35.35:553][ 73]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.35.35:613][ 74]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.35.35:671][ 75]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.35.37:795][142]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap_C
+[2024.10.28-22.35.37:795][142]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap_C
+[2024.10.28-22.35.37:815][142]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap as actor: Spike_Trap_C /Game/Levels/Level1.Level1:PersistentLevel.Spike_Trap_C_0
+[2024.10.28-22.35.37:834][142]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap as actor: Spike_Trap_C /Game/Levels/Level1.Level1:PersistentLevel.Spike_Trap_C_0
+[2024.10.28-22.35.43:709][276]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap_C
+[2024.10.28-22.35.43:709][276]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap_C
+[2024.10.28-22.35.43:733][276]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap as actor: Spike_Trap_C /Game/Levels/Level1.Level1:PersistentLevel.Spike_Trap_C_1
+[2024.10.28-22.35.43:755][276]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Spike_Trap.Spike_Trap as actor: Spike_Trap_C /Game/Levels/Level1.Level1:PersistentLevel.Spike_Trap_C_1
+[2024.10.28-22.35.55:509][716]Cmd: DUPLICATE
+[2024.10.28-22.35.55:509][716]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.36.05:712][ 94]Cmd: DUPLICATE
+[2024.10.28-22.36.05:712][ 94]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.36.05:896][ 94]Cmd: DUPLICATE
+[2024.10.28-22.36.05:896][ 94]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.36.31:376][975]Cmd: DUPLICATE
+[2024.10.28-22.36.31:376][975]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.37.10:919][435]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2024.10.28-22.37.11:007][435]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.37.11:007][435]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-22.37.11:975][435]LogViewport: Scene viewport resized to 1403x858, mode Windowed.
+[2024.10.28-22.37.20:663][639]LogStaticMesh: Display: Building static mesh Wall_400x400...
+[2024.10.28-22.37.20:674][639]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Total job queries 3,779, among them cache hits 32 (0.85%)
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Tracking 3,735 distinct input hashes that result in 2,670 distinct outputs (71.49%)
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: RAM used: 69.00 MiB of 1.60 GiB budget. Usage: 4.21%
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Shaders Compiled: 3,735
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Jobs assigned 3,739, completed 3,735 (99.89%)
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Average time worker was idle: 20.59 s
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Time job spent in pending queue: average 188.56 s, longest 387.34 s
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Job execution time: average 5.50 s, max 24.23 s
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Job life time (pending + execution): average 194.25 s, max 399.87
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Shader code size: average 38.183 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 460.70 s
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Jobs were issued in 491 batches (only local compilation was used), average 7.62 jobs/batch
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Average processing rate: 8.11 jobs/sec
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Total thread time: 2,108.909 s
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Total thread preprocess time: 149.445 s
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Percentage time preprocessing: 7.09%
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Effective parallelization: 4.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.24 sec, max 13.84 sec, min 1.87 sec)
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.39 sec, max 7.01 sec, min 4.13 sec)
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 3.17 sec, max 3.17 sec, min 3.17 sec)
+[2024.10.28-22.37.22:432][675]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 2.20 sec, max 2.20 sec, min 2.20 sec)
+[2024.10.28-22.37.22:433][675]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.13 sec, max 3.21 sec, min 1.28 sec)
+[2024.10.28-22.37.22:433][675]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.28-22.37.22:433][675]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.14% of total time (compiled  134 times, average 1.75 sec, max 2.97 sec, min 1.31 sec)
+[2024.10.28-22.37.22:433][675]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.13% of total time (compiled   96 times, average 1.13 sec, max 2.05 sec, min 0.70 sec)
+[2024.10.28-22.37.22:433][675]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.18% of total time (compiled   96 times, average 0.92 sec, max 1.47 sec, min 0.23 sec)
+[2024.10.28-22.37.22:433][675]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.15% of total time (compiled  128 times, average 0.68 sec, max 3.96 sec, min 0.22 sec)
+[2024.10.28-22.37.22:433][675]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.87% of total time (compiled  128 times, average 0.64 sec, max 1.28 sec, min 0.45 sec)
+[2024.10.28-22.37.22:433][675]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.38.20:102][925]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.38.20:194][925]LogSavePackage: Moving output files for package: /Game/StarterContent/Architecture/Wall_400x400
+[2024.10.28-22.38.20:195][925]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Wall_400x40003B1C26F4E41A2DB2C4C568930A9F91A.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/StarterContent/Architecture/Wall_400x400.uasset'
+[2024.10.28-22.38.20:208][925]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 2.37 sec)
+[2024.10.28-22.38.20:210][925]AssetCheck: New page: Asset Save: Wall_400x400
+[2024.10.28-22.38.20:210][925]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2024.10.28-22.38.21:394][955]LogViewport: Scene viewport resized to 654x153, mode Windowed.
+[2024.10.28-22.38.24:449][ 41]LogViewport: Scene viewport resized to 1403x858, mode Windowed.
+[2024.10.28-22.38.32:953][226]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2613.871826
+[2024.10.28-22.38.33:109][230]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.28-22.38.33:109][230]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2613.989014, Update Interval: 325.697815
+[2024.10.28-22.38.44:463][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.38.44:581][484]LogSavePackage: Moving output files for package: /Game/StarterContent/Architecture/Wall_400x400
+[2024.10.28-22.38.44:583][484]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Wall_400x400BC14F435466A6071BAB331A40601780F.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/StarterContent/Architecture/Wall_400x400.uasset'
+[2024.10.28-22.38.44:597][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 2.50 sec)
+[2024.10.28-22.38.44:600][484]AssetCheck: New page: Asset Save: Wall_400x400
+[2024.10.28-22.38.44:600][484]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2024.10.28-22.38.44:922][494]LogViewport: Scene viewport resized to 654x153, mode Windowed.
+[2024.10.28-22.38.46:863][559]LogSlate: Window 'Wall_400x400' being destroyed
+[2024.10.28-22.38.46:889][559]LogSlate: Window 'Wall_400x400' being destroyed
+[2024.10.28-22.38.46:960][559]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-22.38.46:960][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.38.48:354][614]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.28-22.38.48:370][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.28-22.38.48:370][614]PIE: New page: PIE session: Level1 (Oct 28, 2024, 10:38:48 AM)
+[2024.10.28-22.38.48:370][614]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.10.28-22.38.48:374][614]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.10.28-22.38.48:409][615]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2024.10.28-22.38.48:448][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041337s)
+[2024.10.28-22.38.48:448][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.041415s)
+[2024.10.28-22.38.48:617][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.10.28-22.38.48:624][615]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.38.48:624][615]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-22.38.48:624][615]LogAIModule: Creating AISystem for world Level1
+[2024.10.28-22.38.48:624][615]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2024.10.28-22.38.48:624][615]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.10.28-22.38.48:624][615]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.28-22.38.48:624][615]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.28-22.38.48:624][615]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.28-22.38.48:624][615]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.28-22.38.48:624][615]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.28-22.38.48:624][615]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.28-22.38.48:625][615]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.28-22.38.48:625][615]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.28-22.38.48:625][615]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.28-22.38.48:625][615]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.28-22.38.48:625][615]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.28-22.38.48:628][615]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.28-22.38.48:663][615]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.28-22.38.48:664][615]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.28-22.38.48:664][615]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.28-22.38.48:664][615]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.28-22.38.48:665][615]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.10.28-22.38.48:665][615]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.10.28-22.38.48:668][615]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.10.28-22.38.48:668][615]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.10.28-22.38.48:668][615]LogInit: FAudioDevice initialized with ID 6.
+[2024.10.28-22.38.48:668][615]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level1'.
+[2024.10.28-22.38.48:668][615]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.10.28-22.38.48:672][615]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.28-22.38.48:686][615]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2024.10.28-16.38.48
+[2024.10.28-22.38.48:686][615]LogWorld: Bringing up level for play took: 0.013378
+[2024.10.28-22.38.48:691][615]PIE: Server logged in
+[2024.10.28-22.38.48:692][615]PIE: Play in editor total start time 0.322 seconds.
+[2024.10.28-22.39.53:713][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.28-22.39.53:713][389]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2024.10.28-22.39.53:713][389]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-22.39.53:714][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.39.53:729][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.28-22.39.53:737][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.39.53:754][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.28-22.39.53:754][389]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.10.28-22.39.53:755][389]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.10.28-22.39.53:757][389]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.10.28-22.39.53:780][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.10.28-22.39.53:938][390]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.10.28-22.40.20:884][419]Cmd: DUPLICATE
+[2024.10.28-22.40.20:884][419]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.40.41:783][226]Cmd: DUPLICATE
+[2024.10.28-22.40.41:783][226]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.40.41:957][229]Cmd: DUPLICATE
+[2024.10.28-22.40.41:957][229]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.41.07:971][183]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Total job queries 3,804, among them cache hits 36 (0.95%)
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Tracking 3,761 distinct input hashes that result in 2,684 distinct outputs (71.36%)
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: RAM used: 69.59 MiB of 1.60 GiB budget. Usage: 4.25%
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Shaders Compiled: 3,761
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Jobs assigned 3,764, completed 3,761 (99.92%)
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Average time worker was idle: 21.30 s
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Time job spent in pending queue: average 187.31 s, longest 387.34 s
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Job execution time: average 5.46 s, max 24.23 s
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Job life time (pending + execution): average 192.92 s, max 399.87
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Shader code size: average 38.16 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 467.77 s
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Jobs were issued in 516 batches (only local compilation was used), average 7.29 jobs/batch
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Average processing rate: 8.04 jobs/sec
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Total thread time: 2,127.703 s
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Total thread preprocess time: 151.962 s
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Percentage time preprocessing: 7.14%
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Effective parallelization: 4.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.24 sec, max 13.84 sec, min 1.87 sec)
+[2024.10.28-22.41.07:972][183]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.39 sec, max 7.01 sec, min 4.13 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 3.17 sec, max 3.17 sec, min 3.17 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 2.20 sec, max 2.20 sec, min 2.20 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.13 sec, max 3.21 sec, min 1.28 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.04% of total time (compiled  134 times, average 1.75 sec, max 2.97 sec, min 1.31 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.08% of total time (compiled   96 times, average 1.13 sec, max 2.05 sec, min 0.70 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.15% of total time (compiled   96 times, average 0.92 sec, max 1.47 sec, min 0.23 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.11% of total time (compiled  128 times, average 0.68 sec, max 3.96 sec, min 0.22 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.84% of total time (compiled  128 times, average 0.64 sec, max 1.28 sec, min 0.45 sec)
+[2024.10.28-22.41.07:973][183]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.42.21:323][897]Cmd: TRANSACTION UNDO
+[2024.10.28-22.42.21:323][897]LogEditorTransaction: Undo Replace component used material
+[2024.10.28-22.42.23:294][949]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2024.10.28-22.42.23:364][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.42.23:364][949]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-22.42.24:452][949]LogViewport: Scene viewport resized to 656x155, mode Windowed.
+[2024.10.28-22.42.25:889][992]LogViewport: Scene viewport resized to 1403x858, mode Windowed.
+[2024.10.28-22.42.36:196][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.42.36:293][233]LogSavePackage: Moving output files for package: /Game/StarterContent/Architecture/Wall_400x400
+[2024.10.28-22.42.36:295][233]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Wall_400x4005AC5ABFA4F608FD28A91099AD3138AB6.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/StarterContent/Architecture/Wall_400x400.uasset'
+[2024.10.28-22.42.36:310][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 2.61 sec)
+[2024.10.28-22.42.36:312][233]AssetCheck: New page: Asset Save: Wall_400x400
+[2024.10.28-22.42.36:312][233]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2024.10.28-22.42.36:682][244]LogViewport: Scene viewport resized to 656x155, mode Windowed.
+[2024.10.28-22.42.39:570][342]LogSlate: Window 'Wall_400x400' being destroyed
+[2024.10.28-22.42.39:600][342]LogSlate: Window 'Wall_400x400' being destroyed
+[2024.10.28-22.42.39:674][342]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-22.42.39:674][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.42.41:975][439]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.28-22.42.41:988][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.28-22.42.41:988][439]PIE: New page: PIE session: Level1 (Oct 28, 2024, 10:42:41 AM)
+[2024.10.28-22.42.41:988][439]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.10.28-22.42.41:991][439]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.10.28-22.42.42:013][440]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2024.10.28-22.42.42:036][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023173s)
+[2024.10.28-22.42.42:036][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.023224s)
+[2024.10.28-22.42.42:066][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.10.28-22.42.42:069][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.42.42:069][440]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-22.42.42:070][440]LogAIModule: Creating AISystem for world Level1
+[2024.10.28-22.42.42:070][440]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2024.10.28-22.42.42:070][440]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.10.28-22.42.42:070][440]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.28-22.42.42:070][440]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.28-22.42.42:071][440]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.28-22.42.42:071][440]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.28-22.42.42:071][440]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.28-22.42.42:071][440]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.28-22.42.42:071][440]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.28-22.42.42:071][440]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.28-22.42.42:071][440]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.28-22.42.42:071][440]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.28-22.42.42:071][440]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.28-22.42.42:074][440]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.28-22.42.42:107][440]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.28-22.42.42:108][440]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.28-22.42.42:108][440]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.28-22.42.42:108][440]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.28-22.42.42:110][440]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.10.28-22.42.42:110][440]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.10.28-22.42.42:112][440]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.10.28-22.42.42:112][440]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.10.28-22.42.42:112][440]LogInit: FAudioDevice initialized with ID 7.
+[2024.10.28-22.42.42:112][440]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level1'.
+[2024.10.28-22.42.42:112][440]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.10.28-22.42.42:115][440]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.28-22.42.42:132][440]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2024.10.28-16.42.42
+[2024.10.28-22.42.42:132][440]LogWorld: Bringing up level for play took: 0.016693
+[2024.10.28-22.42.42:137][440]PIE: Server logged in
+[2024.10.28-22.42.42:138][440]PIE: Play in editor total start time 0.15 seconds.
+[2024.10.28-22.43.13:486][778]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Altec Lansing Fury Stereo), InstanceID=1
+[2024.10.28-22.43.13:487][778]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3348
+[2024.10.28-22.43.13:489][778]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Altec Lansing Fury Stereo), InstanceID=7
+[2024.10.28-22.43.13:515][779]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=29512
+[2024.10.28-22.43.13:666][785]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{15214000-2d7d-46ea-8c40-b7715a0b2457}, Name=Headphones (Altec Lansing Fury Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=170.87
+[2024.10.28-22.43.13:666][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.28-22.43.13:669][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.10.28-22.43.13:672][785]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{15214000-2d7d-46ea-8c40-b7715a0b2457}, Name=Headphones (Altec Lansing Fury Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=7, DurationMS=152.22
+[2024.10.28-22.43.13:672][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.10.28-22.43.13:675][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.10.28-22.44.02:137][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.28-22.44.02:138][913]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2024.10.28-22.44.02:138][913]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-22.44.02:141][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.44.02:147][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.28-22.44.02:153][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.44.02:171][913]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.28-22.44.02:172][913]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.10.28-22.44.02:172][913]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.10.28-22.44.02:174][913]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.10.28-22.44.02:181][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.28-22.44.02:187][913]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.10.28-22.44.02:360][914]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.10.28-22.44.33:909][ 74]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2974.823975
+[2024.10.28-22.44.34:026][ 79]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.28-22.44.34:026][ 79]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2974.915771, Update Interval: 343.172089
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: Total job queries 3,830, among them cache hits 38 (0.99%)
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: Tracking 3,785 distinct input hashes that result in 2,696 distinct outputs (71.23%)
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: RAM used: 70.09 MiB of 1.60 GiB budget. Usage: 4.28%
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: Shaders Compiled: 3,785
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: Jobs assigned 3,788, completed 3,785 (99.92%)
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: Average time worker was idle: 21.98 s
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: Time job spent in pending queue: average 186.12 s, longest 387.34 s
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: Job execution time: average 5.43 s, max 24.23 s
+[2024.10.28-22.44.51:157][694]LogShaderCompilers: Display: Job life time (pending + execution): average 191.70 s, max 399.87
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Shader code size: average 38.146 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 473.64 s
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Jobs were issued in 540 batches (only local compilation was used), average 7.01 jobs/batch
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Average processing rate: 7.99 jobs/sec
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Total thread time: 2,141.722 s
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Total thread preprocess time: 153.474 s
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Percentage time preprocessing: 7.17%
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Effective parallelization: 4.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.24 sec, max 13.84 sec, min 1.87 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.39 sec, max 7.01 sec, min 4.13 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 3.17 sec, max 3.17 sec, min 3.17 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 2.20 sec, max 2.20 sec, min 2.20 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.13 sec, max 3.21 sec, min 1.28 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                             FDeferredLightPS - 10.97% of total time (compiled  134 times, average 1.75 sec, max 2.97 sec, min 1.31 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.05% of total time (compiled   96 times, average 1.13 sec, max 2.05 sec, min 0.70 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.12% of total time (compiled   96 times, average 0.92 sec, max 1.47 sec, min 0.23 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.09% of total time (compiled  128 times, average 0.68 sec, max 3.96 sec, min 0.22 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.81% of total time (compiled  128 times, average 0.64 sec, max 1.28 sec, min 0.45 sec)
+[2024.10.28-22.44.51:158][694]LogShaderCompilers: Display: ================================================
+[2024.10.28-22.45.27:760][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.45.27:838][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-22.45.27:905][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.10.28-22.45.27:995][ 15]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.10.28-22.45.27:996][ 15]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level1E4784523437C876B0A2C0CAB291120C5.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap'
+[2024.10.28-22.45.28:012][ 15]LogFileHelpers: Saving map 'Level1' took 0.173
+[2024.10.28-22.45.28:023][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave took 262 ms (total: 2.88 sec)
+[2024.10.28-22.45.28:025][ 15]AssetCheck: New page: Asset Save: Level1
+[2024.10.28-22.45.28:025][ 15]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.10.28-22.45.37:024][355]SourceControl: fatal: I:/UE_5.3/Engine/Content: 'I:/UE_5.3/Engine/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:024][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'I:/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:025][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'I:/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.37:026][355]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.45.52:220][355]LogSlate: Window 'Submit Files' being destroyed
+[2024.10.28-22.45.53:882][355]LogSourceControl: commit successful: [level-1-part-2 4a2b7ca] finished level 1
+[2024.10.28-22.45.54:185][355]SourceControl: [level-1-part-2 4a2b7ca] finished level 1
+[2024.10.28-22.45.54:185][355]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2024.10.28-22.45.54:223][355]SourceControl: Commited [level-1-part-2 4a2b7ca] finished level 1.
+[2024.10.28-22.45.54:239][356]LogAutomationController: Ignoring very large delta of 17.23 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
