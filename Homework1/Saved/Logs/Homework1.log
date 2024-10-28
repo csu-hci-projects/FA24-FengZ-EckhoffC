@@ -1619,3 +1619,313 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2024.10.28-22.08.08:841][352]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
 [2024.10.28-22.08.08:919][352]SourceControl: Commited [test-branch a8928e9] added level 1 part 1.
 [2024.10.28-22.08.08:955][353]LogAutomationController: Ignoring very large delta of 21.49 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.28-22.12.05:370][186]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1026.293091
+[2024.10.28-22.12.06:379][189]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.28-22.12.06:380][189]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1026.950439, Update Interval: 306.985687
+[2024.10.28-22.14.21:206][389]Cmd: DUPLICATE
+[2024.10.28-22.14.21:206][389]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.14.37:478][ 41]Cmd: DUPLICATE
+[2024.10.28-22.14.37:478][ 41]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.14.48:746][485]Cmd: DUPLICATE
+[2024.10.28-22.14.48:746][485]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.15.11:887][431]Cmd: DUPLICATE
+[2024.10.28-22.15.11:887][431]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.15.40:827][619]Cmd: DUPLICATE
+[2024.10.28-22.15.40:827][619]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.16.50:650][320]Cmd: DUPLICATE
+[2024.10.28-22.16.50:650][320]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.17.23:055][616]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1343.975464
+[2024.10.28-22.17.23:192][622]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.28-22.17.23:192][622]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1344.093018, Update Interval: 356.929230
+[2024.10.28-22.17.35:691][104]Cmd: DUPLICATE
+[2024.10.28-22.17.35:691][104]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.18.02:930][133]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.28-22.18.02:944][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.28-22.18.02:944][133]PIE: New page: PIE session: Level1 (Oct 28, 2024, 10:18:02 AM)
+[2024.10.28-22.18.02:944][133]LogPlayLevel: Display: Creating online subsystem for client :Context_5
+[2024.10.28-22.18.02:949][133]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.10.28-22.18.02:998][134]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2024.10.28-22.18.03:008][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009658s)
+[2024.10.28-22.18.03:008][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.009756s)
+[2024.10.28-22.18.03:035][134]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2024.10.28-22.18.03:036][134]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.18.03:036][134]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-22.18.03:037][134]LogAIModule: Creating AISystem for world Level1
+[2024.10.28-22.18.03:037][134]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2024.10.28-22.18.03:037][134]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.10.28-22.18.03:037][134]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.28-22.18.03:037][134]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.28-22.18.03:037][134]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.28-22.18.03:037][134]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.28-22.18.03:038][134]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.28-22.18.03:038][134]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.28-22.18.03:038][134]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.28-22.18.03:038][134]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.28-22.18.03:038][134]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.28-22.18.03:038][134]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.28-22.18.03:038][134]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.28-22.18.03:041][134]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.28-22.18.03:077][134]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.28-22.18.03:078][134]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.28-22.18.03:078][134]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.28-22.18.03:078][134]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.28-22.18.03:081][134]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.10.28-22.18.03:081][134]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.10.28-22.18.03:083][134]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.10.28-22.18.03:083][134]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.10.28-22.18.03:083][134]LogInit: FAudioDevice initialized with ID 5.
+[2024.10.28-22.18.03:083][134]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level1'.
+[2024.10.28-22.18.03:083][134]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.28-22.18.03:086][134]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.28-22.18.03:090][134]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2024.10.28-16.18.03
+[2024.10.28-22.18.03:090][134]LogWorld: Bringing up level for play took: 0.004209
+[2024.10.28-22.18.03:095][134]PIE: Server logged in
+[2024.10.28-22.18.03:096][134]PIE: Play in editor total start time 0.151 seconds.
+[2024.10.28-22.18.13:181][572]LogNet: Browse: /Game/Levels/Level2
+[2024.10.28-22.18.13:181][572]LogLoad: LoadMap: /Game/Levels/Level2
+[2024.10.28-22.18.13:181][572]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level1
+[2024.10.28-22.18.13:181][572]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-22.18.13:181][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.18.13:242][572]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.28-22.18.13:246][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.10.28-22.18.13:258][572]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level2'.
+[2024.10.28-22.18.13:258][572]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.28-22.18.13:258][572]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.28-22.18.13:259][572]LogAIModule: Creating AISystem for world Level2
+[2024.10.28-22.18.13:259][572]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2024.10.28-22.18.13:259][572]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.28-22.18.13:279][572]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2024.10.28-16.18.13
+[2024.10.28-22.18.13:280][572]LogWorld: Bringing up level for play took: 0.020451
+[2024.10.28-22.18.13:283][572]LogLoad: Took 0.103109 seconds to LoadMap(/Game/Levels/Level2)
+[2024.10.28-22.18.25:341][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.28-22.18.25:341][111]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.10.28-22.18.25:341][111]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.10.28-22.18.25:342][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.18.25:348][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.28-22.18.25:353][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.28-22.18.25:375][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.28-22.18.25:375][111]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.28-22.18.25:376][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.28-22.18.25:378][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.28-22.18.25:400][111]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2024.10.28-22.18.25:588][112]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.10.28-22.19.08:101][733]Cmd: DUPLICATE
+[2024.10.28-22.19.08:101][733]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.19.08:332][739]Cmd: DUPLICATE
+[2024.10.28-22.19.08:332][739]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.19.08:507][745]Cmd: DUPLICATE
+[2024.10.28-22.19.08:507][745]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.19.30:644][518]Cmd: DUPLICATE
+[2024.10.28-22.19.30:644][518]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.19.30:819][521]Cmd: DUPLICATE
+[2024.10.28-22.19.30:819][521]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.19.30:819][521]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2024.10.28-22.19.45:639][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.19.45:722][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-22.19.45:781][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.10.28-22.19.45:821][109]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.10.28-22.19.45:822][109]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level1A06D073745CD403C5B81B09D3DB94D3E.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap'
+[2024.10.28-22.19.45:835][109]LogFileHelpers: Saving map 'Level1' took 0.115
+[2024.10.28-22.19.45:845][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 904 ms)
+[2024.10.28-22.19.45:848][109]AssetCheck: New page: Asset Save: Level1
+[2024.10.28-22.19.45:848][109]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.10.28-22.19.48:256][209]Cmd: DUPLICATE
+[2024.10.28-22.19.48:256][209]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.20.10:015][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.20.10:097][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-22.20.10:159][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.10.28-22.20.10:201][982]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.10.28-22.20.10:202][982]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level1F52EB14D4B6DDD1C67F057A76F37F780.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap'
+[2024.10.28-22.20.10:214][982]LogFileHelpers: Saving map 'Level1' took 0.118
+[2024.10.28-22.20.10:225][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 1.11 sec)
+[2024.10.28-22.20.10:227][982]AssetCheck: New page: Asset Save: Level1
+[2024.10.28-22.20.10:227][982]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.10.28-22.20.10:593][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.20.10:662][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-22.20.10:713][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.28-22.20.10:752][987]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.10.28-22.20.10:753][987]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level1065749F14CEFAC2B908812A61DB85C0D.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap'
+[2024.10.28-22.20.10:765][987]LogFileHelpers: Saving map 'Level1' took 0.104
+[2024.10.28-22.20.10:776][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 1.29 sec)
+[2024.10.28-22.20.10:778][987]AssetCheck: New page: Asset Save: Level1
+[2024.10.28-22.20.10:778][987]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.10.28-22.20.11:777][ 31]Cmd: DUPLICATE
+[2024.10.28-22.20.11:777][ 31]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.20.33:522][925]Cmd: DUPLICATE
+[2024.10.28-22.20.33:523][925]Cmd: ACTOR DUPLICATE
+[2024.10.28-22.20.38:863][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.20.38:946][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-22.20.39:009][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.10.28-22.20.39:050][109]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.10.28-22.20.39:051][109]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level1A115B850418DC1F0D3AD779EC6C772C0.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap'
+[2024.10.28-22.20.39:065][109]LogFileHelpers: Saving map 'Level1' took 0.119
+[2024.10.28-22.20.39:073][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 1.50 sec)
+[2024.10.28-22.20.39:075][109]AssetCheck: New page: Asset Save: Level1
+[2024.10.28-22.20.39:075][109]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.10.28-22.20.48:664][469]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.20.48:738][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-22.20.48:798][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.10.28-22.20.48:839][469]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.10.28-22.20.48:840][469]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level183BB45A746FDD164FC3EBDB0A671BCB1.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap'
+[2024.10.28-22.20.48:852][469]LogFileHelpers: Saving map 'Level1' took 0.115
+[2024.10.28-22.20.48:864][469]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 1.70 sec)
+[2024.10.28-22.20.48:867][469]AssetCheck: New page: Asset Save: Level1
+[2024.10.28-22.20.48:867][469]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.10.28-22.20.54:687][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.28-22.20.54:772][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.28-22.20.54:834][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.10.28-22.20.54:879][669]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.10.28-22.20.54:880][669]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level1E77430134F881E992B5B1193277E2A3A.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level1.umap'
+[2024.10.28-22.20.54:892][669]LogFileHelpers: Saving map 'Level1' took 0.121
+[2024.10.28-22.20.54:904][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 1.92 sec)
+[2024.10.28-22.20.54:906][669]AssetCheck: New page: Asset Save: Level1
+[2024.10.28-22.20.54:907][669]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.10.28-22.21.03:515][863]SourceControl: fatal: I:/UE_5.3/Engine/Content: 'I:/UE_5.3/Engine/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:515][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:515][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:515][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'I:/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:516][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:517][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'I:/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.21.03:518][863]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.26.11:855][863]LogSlate: Window 'Submit Files' being destroyed
+[2024.10.28-22.26.13:294][863]LogSourceControl: commit successful: [test-branch 901692c] lvl 1 part 2 without mesh
+[2024.10.28-22.26.13:448][863]SourceControl: [test-branch 901692c] lvl 1 part 2 without mesh
+[2024.10.28-22.26.13:448][863]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2024.10.28-22.26.13:480][863]SourceControl: Commited [test-branch 901692c] lvl 1 part 2 without mesh.
+[2024.10.28-22.26.13:503][864]LogAutomationController: Ignoring very large delta of 310.32 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.28-22.26.45:499][ 89]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1906.411865
+[2024.10.28-22.26.46:501][ 92]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.28-22.26.46:501][ 92]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1907.078491, Update Interval: 308.509155
+[2024.10.28-22.27.47:090][507]SourceControl: fatal: I:/UE_5.3/Engine/Content: 'I:/UE_5.3/Engine/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:090][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:090][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:090][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:090][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:090][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:091][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:091][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:091][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:091][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'I:/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:091][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:091][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:092][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:092][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:092][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:092][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:092][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:092][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:093][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:093][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:093][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:093][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:093][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:093][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:094][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:094][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:094][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:094][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:094][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:095][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:095][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:095][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:095][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:095][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:095][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:095][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:096][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:096][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:096][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:096][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:096][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:096][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:097][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:097][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'I:/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:097][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:097][507]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.27.47:299][507]EditorErrors: Warning: No assets to check in!
+[2024.10.28-22.28.31:667][133]SourceControl: fatal: I:/UE_5.3/Engine/Content: 'I:/UE_5.3/Engine/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:667][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'I:/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:668][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:669][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:669][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:669][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:669][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:669][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:669][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:669][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:669][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:670][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:670][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:670][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:670][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:670][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:670][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:670][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:670][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:671][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:671][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:671][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:671][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:671][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:671][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:671][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:671][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:672][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:672][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:672][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:672][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:672][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:672][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:672][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:672][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:673][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'I:/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:673][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:673][133]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.28-22.28.31:893][133]EditorErrors: Warning: No assets to check in!
