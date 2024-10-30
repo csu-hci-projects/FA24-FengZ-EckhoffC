@@ -2045,3 +2045,453 @@ Scale3D: 1.000000 1.000000 1.000000
 [2024.10.30-03.35.48:578][455]SourceControl: [main af92484] llv 2
 [2024.10.30-03.35.48:578][455]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2024.10.30-03.35.48:613][455]SourceControl: Commited [main af92484] llv 2.
+[2024.10.30-03.36.38:849][686]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-03.36.38:868][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-03.36.38:868][686]PIE: New page: PIE session: Level2 (Oct 29, 2024, 3:36:38 PM)
+[2024.10.30-03.36.38:868][686]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2024.10.30-03.36.38:871][686]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.10.30-03.36.38:908][687]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.36.38:928][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020368s)
+[2024.10.30-03.36.38:928][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.020436s)
+[2024.10.30-03.36.38:936][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.10.30-03.36.38:938][687]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-03.36.38:938][687]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-03.36.38:939][687]LogAIModule: Creating AISystem for world Level2
+[2024.10.30-03.36.38:939][687]LogPlayLevel: PIE: World Init took: (0.001619s)
+[2024.10.30-03.36.38:939][687]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.10.30-03.36.38:939][687]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-03.36.38:939][687]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-03.36.38:939][687]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-03.36.38:939][687]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-03.36.38:940][687]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.30-03.36.38:940][687]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-03.36.38:940][687]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.30-03.36.38:940][687]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-03.36.38:941][687]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-03.36.38:941][687]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-03.36.38:941][687]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-03.36.38:944][687]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-03.36.38:990][687]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Altec Lansing Fury Stereo)
+[2024.10.30-03.36.38:991][687]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-03.36.38:991][687]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-03.36.38:991][687]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-03.36.38:992][687]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.10.30-03.36.38:992][687]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.10.30-03.36.38:996][687]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.10.30-03.36.38:996][687]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.10.30-03.36.38:996][687]LogInit: FAudioDevice initialized with ID 9.
+[2024.10.30-03.36.38:996][687]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level2'.
+[2024.10.30-03.36.38:996][687]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.10.30-03.36.38:999][687]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-03.36.39:017][687]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2024.10.29-21.36.39
+[2024.10.30-03.36.39:017][687]LogWorld: Bringing up level for play took: 0.018124
+[2024.10.30-03.36.39:027][687]PIE: Server logged in
+[2024.10.30-03.36.39:029][687]PIE: Play in editor total start time 0.162 seconds.
+[2024.10.30-03.38.01:797][436]LogNet: Browse: /Game/Levels/Level2
+[2024.10.30-03.38.01:797][436]LogLoad: LoadMap: /Game/Levels/Level2
+[2024.10.30-03.38.01:797][436]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.38.01:798][436]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-03.38.01:800][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.38.01:807][436]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-03.38.01:826][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.10.30-03.38.01:844][436]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.38.01:857][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013218s)
+[2024.10.30-03.38.01:857][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013286s)
+[2024.10.30-03.38.01:857][436]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level2'.
+[2024.10.30-03.38.01:857][436]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-03.38.01:857][436]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-03.38.01:858][436]LogAIModule: Creating AISystem for world Level2
+[2024.10.30-03.38.01:858][436]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2024.10.30-03.38.01:858][436]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-03.38.01:867][436]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2024.10.29-21.38.01
+[2024.10.30-03.38.01:867][436]LogWorld: Bringing up level for play took: 0.008180
+[2024.10.30-03.38.01:872][436]LogLoad: Took 0.074875 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level2)
+[2024.10.30-03.38.26:000][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-03.38.26:000][245]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.38.26:001][245]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-03.38.26:002][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.38.26:055][245]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-03.38.26:060][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.38.26:072][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-03.38.26:074][245]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.10.30-03.38.26:074][245]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.10.30-03.38.26:078][245]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.10.30-03.38.26:099][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.10.30-03.38.26:298][246]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.10.30-03.38.57:765][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-03.38.57:843][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.30-03.38.57:895][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.10.30-03.38.57:957][151]LogSavePackage: Moving output files for package: /Game/Levels/Level2
+[2024.10.30-03.38.57:958][151]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level2D479E29C4FAF4EB82B6C6086E7F86530.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap'
+[2024.10.30-03.38.57:970][151]LogFileHelpers: Saving map 'Level2' took 0.128
+[2024.10.30-03.38.57:986][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 221 ms (total: 1.09 sec)
+[2024.10.30-03.38.57:988][151]AssetCheck: New page: Asset Save: Level2
+[2024.10.30-03.38.57:988][151]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level2.Level2
+[2024.10.30-03.39.05:593][373]Cmd: DUPLICATE
+[2024.10.30-03.39.05:593][373]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.06:426][394]Cmd: DUPLICATE
+[2024.10.30-03.39.06:426][394]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.06:614][394]Cmd: DUPLICATE
+[2024.10.30-03.39.06:614][394]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.06:812][395]Cmd: DUPLICATE
+[2024.10.30-03.39.06:812][395]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.06:962][395]Cmd: DUPLICATE
+[2024.10.30-03.39.06:962][395]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.07:169][396]Cmd: DUPLICATE
+[2024.10.30-03.39.07:169][396]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.07:324][396]Cmd: DUPLICATE
+[2024.10.30-03.39.07:324][396]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.37:991][252]Cmd: DUPLICATE
+[2024.10.30-03.39.37:991][252]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.44:042][429]Cmd: DUPLICATE
+[2024.10.30-03.39.44:042][429]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.44:250][429]Cmd: DUPLICATE
+[2024.10.30-03.39.44:250][429]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.44:417][429]Cmd: DUPLICATE
+[2024.10.30-03.39.44:417][429]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.39.44:574][429]Cmd: DUPLICATE
+[2024.10.30-03.39.44:575][429]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.40.18:469][368]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-03.40.18:483][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-03.40.18:483][368]PIE: New page: PIE session: Level2 (Oct 29, 2024, 3:40:18 PM)
+[2024.10.30-03.40.18:483][368]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.10.30-03.40.18:487][368]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.10.30-03.40.18:511][369]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.40.18:559][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047986s)
+[2024.10.30-03.40.18:559][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.048045s)
+[2024.10.30-03.40.18:632][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.30-03.40.18:633][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-03.40.18:633][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-03.40.18:634][369]LogAIModule: Creating AISystem for world Level2
+[2024.10.30-03.40.18:634][369]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2024.10.30-03.40.18:634][369]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.10.30-03.40.18:634][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-03.40.18:634][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-03.40.18:634][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-03.40.18:634][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-03.40.18:634][369]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.30-03.40.18:635][369]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-03.40.18:635][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.30-03.40.18:635][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-03.40.18:635][369]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-03.40.18:635][369]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-03.40.18:635][369]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-03.40.18:638][369]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-03.40.18:672][369]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Altec Lansing Fury Stereo)
+[2024.10.30-03.40.18:672][369]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-03.40.18:672][369]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-03.40.18:672][369]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-03.40.18:674][369]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.10.30-03.40.18:674][369]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.10.30-03.40.18:676][369]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.10.30-03.40.18:676][369]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.10.30-03.40.18:676][369]LogInit: FAudioDevice initialized with ID 10.
+[2024.10.30-03.40.18:676][369]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level2'.
+[2024.10.30-03.40.18:676][369]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.10.30-03.40.18:679][369]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-03.40.18:712][369]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2024.10.29-21.40.18
+[2024.10.30-03.40.18:713][369]LogWorld: Bringing up level for play took: 0.033247
+[2024.10.30-03.40.18:720][369]PIE: Server logged in
+[2024.10.30-03.40.18:721][369]PIE: Play in editor total start time 0.238 seconds.
+[2024.10.30-03.40.25:219][565]SourceControl: Error: warning: could not open directory 'Homework1/Content/Levels/_GENERATED/': No such file or directory
+[2024.10.30-03.41.08:741][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-03.41.08:742][ 50]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.41.08:742][ 50]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-03.41.08:744][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.41.08:774][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-03.41.08:777][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.41.08:783][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-03.41.08:786][ 50]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.10.30-03.41.08:786][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.10.30-03.41.08:789][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.10.30-03.41.08:804][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.10.30-03.41.08:953][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.10.30-03.41.14:790][206]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1712.797974
+[2024.10.30-03.41.14:932][211]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-03.41.14:932][211]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1712.910645, Update Interval: 313.614319
+[2024.10.30-03.41.20:675][396]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup_C
+[2024.10.30-03.41.20:675][396]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup_C
+[2024.10.30-03.41.20:677][396]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup as actor: Health_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Health_pickup_C_6
+[2024.10.30-03.41.20:678][396]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup as actor: Health_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Health_pickup_C_6
+[2024.10.30-03.41.23:110][441]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup_C
+[2024.10.30-03.41.23:110][441]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup_C
+[2024.10.30-03.41.23:114][441]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup as actor: Health_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Health_pickup_C_7
+[2024.10.30-03.41.23:115][441]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup as actor: Health_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Health_pickup_C_7
+[2024.10.30-03.41.31:445][698]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup_C
+[2024.10.30-03.41.31:445][698]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup_C
+[2024.10.30-03.41.31:448][698]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup as actor: Health_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Health_pickup_C_8
+[2024.10.30-03.41.31:452][698]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup as actor: Health_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Health_pickup_C_8
+[2024.10.30-03.41.32:196][719]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup_C
+[2024.10.30-03.41.32:196][719]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup_C
+[2024.10.30-03.41.32:199][719]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup as actor: Health_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Health_pickup_C_9
+[2024.10.30-03.41.32:201][719]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Health_pickup.Health_pickup as actor: Health_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Health_pickup_C_9
+[2024.10.30-03.42.03:316][678]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.03:317][678]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.03:318][678]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_0
+[2024.10.30-03.42.03:320][678]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_0
+[2024.10.30-03.42.04:631][715]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.04:631][715]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.04:633][715]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_2
+[2024.10.30-03.42.04:635][715]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_2
+[2024.10.30-03.42.06:752][769]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.06:752][769]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.06:753][769]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_3
+[2024.10.30-03.42.06:755][769]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_3
+[2024.10.30-03.42.07:825][798]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.07:825][798]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.07:828][798]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_4
+[2024.10.30-03.42.07:830][798]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_4
+[2024.10.30-03.42.10:317][873]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.10:317][873]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.10:319][873]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_5
+[2024.10.30-03.42.10:321][873]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_5
+[2024.10.30-03.42.11:543][902]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.11:544][902]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup_C
+[2024.10.30-03.42.11:547][902]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_6
+[2024.10.30-03.42.11:548][902]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/Ammo_pickup.Ammo_pickup as actor: Ammo_pickup_C /Game/Levels/Level2.Level2:PersistentLevel.Ammo_pickup_C_6
+[2024.10.30-03.42.22:260][198]Cmd: DUPLICATE
+[2024.10.30-03.42.22:260][198]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.42.22:464][201]Cmd: DUPLICATE
+[2024.10.30-03.42.22:464][201]Cmd: ACTOR DUPLICATE
+[2024.10.30-03.42.24:730][267]Cmd: TRANSACTION UNDO
+[2024.10.30-03.42.24:731][267]LogEditorTransaction: Undo Move Elements
+[2024.10.30-03.42.26:779][315]Cmd: TRANSACTION UNDO
+[2024.10.30-03.42.26:779][315]LogEditorTransaction: Undo Move Elements
+[2024.10.30-03.42.34:494][551]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-03.42.34:509][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-03.42.34:509][551]PIE: New page: PIE session: Level2 (Oct 29, 2024, 3:42:34 PM)
+[2024.10.30-03.42.34:530][551]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2024.10.30-03.42.34:533][551]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.10.30-03.42.34:555][552]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.42.34:598][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042185s)
+[2024.10.30-03.42.34:598][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.042243s)
+[2024.10.30-03.42.34:616][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.30-03.42.34:618][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-03.42.34:618][552]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-03.42.34:619][552]LogAIModule: Creating AISystem for world Level2
+[2024.10.30-03.42.34:619][552]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2024.10.30-03.42.34:619][552]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.10.30-03.42.34:619][552]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-03.42.34:619][552]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-03.42.34:619][552]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-03.42.34:619][552]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-03.42.34:619][552]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.30-03.42.34:619][552]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-03.42.34:619][552]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.30-03.42.34:619][552]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-03.42.34:620][552]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-03.42.34:620][552]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-03.42.34:620][552]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-03.42.34:623][552]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-03.42.34:654][552]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Altec Lansing Fury Stereo)
+[2024.10.30-03.42.34:655][552]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-03.42.34:655][552]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-03.42.34:655][552]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-03.42.34:657][552]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.10.30-03.42.34:657][552]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.10.30-03.42.34:659][552]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.10.30-03.42.34:659][552]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.10.30-03.42.34:660][552]LogInit: FAudioDevice initialized with ID 11.
+[2024.10.30-03.42.34:660][552]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level2'.
+[2024.10.30-03.42.34:660][552]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.10.30-03.42.34:662][552]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-03.42.34:696][552]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2024.10.29-21.42.34
+[2024.10.30-03.42.34:696][552]LogWorld: Bringing up level for play took: 0.033212
+[2024.10.30-03.42.34:703][552]PIE: Server logged in
+[2024.10.30-03.42.34:704][552]PIE: Play in editor total start time 0.196 seconds.
+[2024.10.30-03.44.00:030][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-03.44.00:031][358]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.44.00:031][358]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-03.44.00:035][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.44.00:078][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-03.44.00:081][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.44.00:090][358]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-03.44.00:090][358]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.10.30-03.44.00:090][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.10.30-03.44.00:094][358]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.10.30-03.44.00:101][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-03.44.00:109][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.10.30-03.44.00:225][359]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.10.30-03.45.09:254][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-03.45.09:335][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.30-03.45.09:383][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.10.30-03.45.09:523][531]LogSavePackage: Moving output files for package: /Game/Levels/Level2
+[2024.10.30-03.45.09:524][531]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level2258226C041B3A3863B6982AE95CF025E.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap'
+[2024.10.30-03.45.09:540][531]LogFileHelpers: Saving map 'Level2' took 0.206
+[2024.10.30-03.45.09:550][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 295 ms (total: 1.38 sec)
+[2024.10.30-03.45.09:554][531]AssetCheck: New page: Asset Save: Level2
+[2024.10.30-03.45.09:554][531]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level2.Level2
+[2024.10.30-03.45.09:890][543]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-03.45.09:925][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-03.45.09:925][543]PIE: New page: PIE session: Level2 (Oct 29, 2024, 3:45:09 PM)
+[2024.10.30-03.45.09:925][543]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.10.30-03.45.09:933][543]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.10.30-03.45.09:990][544]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.45.10:099][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109060s)
+[2024.10.30-03.45.10:100][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.109183s)
+[2024.10.30-03.45.10:116][544]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.10.30-03.45.10:118][544]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-03.45.10:119][544]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-03.45.10:120][544]LogAIModule: Creating AISystem for world Level2
+[2024.10.30-03.45.10:120][544]LogPlayLevel: PIE: World Init took: (0.002666s)
+[2024.10.30-03.45.10:120][544]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.10.30-03.45.10:121][544]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-03.45.10:121][544]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-03.45.10:121][544]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-03.45.10:122][544]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-03.45.10:122][544]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.30-03.45.10:122][544]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-03.45.10:122][544]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.30-03.45.10:122][544]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-03.45.10:122][544]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-03.45.10:123][544]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-03.45.10:123][544]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-03.45.10:128][544]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-03.45.10:224][544]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Altec Lansing Fury Stereo)
+[2024.10.30-03.45.10:225][544]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-03.45.10:225][544]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-03.45.10:225][544]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-03.45.10:230][544]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.10.30-03.45.10:230][544]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.10.30-03.45.10:236][544]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.10.30-03.45.10:236][544]LogInit: FAudioDevice initialized with ID 12.
+[2024.10.30-03.45.10:236][544]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.10.30-03.45.10:236][544]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level2'.
+[2024.10.30-03.45.10:237][544]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.30-03.45.10:244][544]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-03.45.10:303][544]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2024.10.29-21.45.10
+[2024.10.30-03.45.10:303][544]LogWorld: Bringing up level for play took: 0.056703
+[2024.10.30-03.45.10:310][544]PIE: Server logged in
+[2024.10.30-03.45.10:311][544]PIE: Play in editor total start time 0.386 seconds.
+[2024.10.30-03.45.25:395][ 19]SourceControl: Error: warning: could not open directory 'Homework1/Content/Levels/_GENERATED/': No such file or directory
+[2024.10.30-03.46.43:141][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-03.46.43:141][623]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.10.30-03.46.43:142][623]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-03.46.43:145][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.46.43:173][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-03.46.43:176][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-03.46.43:183][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-03.46.43:186][623]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.30-03.46.43:186][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.30-03.46.43:188][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.30-03.46.43:204][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.10.30-03.46.43:307][624]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.10.30-03.47.21:472][812]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2079.481445
+[2024.10.30-03.47.21:602][816]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-03.47.21:602][816]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2079.580566, Update Interval: 313.211456
+[2024.10.30-03.47.47:582][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-03.47.47:654][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.30-03.47.47:702][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.10.30-03.47.47:838][504]LogSavePackage: Moving output files for package: /Game/Levels/Level2
+[2024.10.30-03.47.47:839][504]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level21A37352642A8A95D7DCC75BC5AE0897E.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap'
+[2024.10.30-03.47.47:854][504]LogFileHelpers: Saving map 'Level2' took 0.199
+[2024.10.30-03.47.47:887][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 304 ms (total: 1.69 sec)
+[2024.10.30-03.47.47:890][504]AssetCheck: New page: Asset Save: Level2
+[2024.10.30-03.47.47:890][504]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level2.Level2
+[2024.10.30-03.47.55:523][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.30-03.47.55:739][727]SourceControl: Error: warning: could not open directory 'Homework1/Content/Levels/_GENERATED/': No such file or directory
+[2024.10.30-03.47.55:745][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-03.47.56:414][727]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/Ziqiu/Box_EC633168
+[2024.10.30-03.47.56:414][727]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Box_EC6331688BBDA4D240657C2A1B11049E0FF229D3.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/_GENERATED/Ziqiu/Box_EC633168.uasset'
+[2024.10.30-03.47.56:930][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.18 sec (total: 2.87 sec)
+[2024.10.30-03.47.56:933][727]AssetCheck: New page: Asset Save: Box_EC633168
+[2024.10.30-03.47.56:933][727]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/_GENERATED/Ziqiu/Box_EC633168.Box_EC633168
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Content: 'I:/UE_5.3/Engine/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:694][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'I:/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'I:/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.06:695][920]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.48.27:086][920]LogSlate: Window 'Submit Files' being destroyed
+[2024.10.30-03.48.28:629][920]LogSourceControl: commit successful: [level-2-part-1.5 46e7b16] final part
+[2024.10.30-03.48.28:879][920]SourceControl: [level-2-part-1.5 46e7b16] final part
+[2024.10.30-03.48.28:879][920]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2024.10.30-03.48.28:879][920]SourceControl:  create mode 100644 Homework1/Content/Levels/_GENERATED/Ziqiu/Box_EC633168.uasset
+[2024.10.30-03.48.28:909][920]SourceControl: Commited [level-2-part-1.5 46e7b16] final part.
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Content: 'I:/UE_5.3/Engine/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:759][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'I:/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:760][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'I:/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.49.58:944][610]EditorErrors: Warning: No assets to check in!
