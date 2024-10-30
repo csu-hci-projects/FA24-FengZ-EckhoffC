@@ -2495,3 +2495,534 @@ Scale3D: 1.000000 1.000000 1.000000
 [2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
 [2024.10.30-03.49.58:761][610]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
 [2024.10.30-03.49.58:944][610]EditorErrors: Warning: No assets to check in!
+[2024.10.30-03.50.29:640][850]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-03.50.29:732][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.30-03.50.29:782][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.10.30-03.50.29:932][850]LogSavePackage: Moving output files for package: /Game/Levels/Level2
+[2024.10.30-03.50.29:933][850]LogSavePackage: Moving 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Saved/Level2030C991B40585C6F807E9A91145DF0BC.tmp' to 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC/Homework1/Content/Levels/Level2.umap'
+[2024.10.30-03.50.29:948][850]LogFileHelpers: Saving map 'Level2' took 0.217
+[2024.10.30-03.50.29:972][850]LogFileHelpers: InternalPromptForCheckoutAndSave took 331 ms (total: 3.20 sec)
+[2024.10.30-03.50.29:975][850]AssetCheck: New page: Asset Save: Level2
+[2024.10.30-03.50.29:975][850]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level2.Level2
+[2024.10.30-03.50.33:610][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:634][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:657][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:683][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:708][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:733][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:757][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:780][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:806][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:830][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:854][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:876][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:902][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:925][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:949][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:972][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.33:995][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:020][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:044][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:067][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:092][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:114][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:138][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:162][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:185][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:209][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:231][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:256][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:279][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:303][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:327][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:350][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:374][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:397][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:421][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:444][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:467][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:491][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:516][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:540][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:565][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:589][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:613][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:640][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:665][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:689][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:713][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:736][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:760][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:786][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:810][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:833][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:857][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:881][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:903][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:928][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:952][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:975][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.34:997][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:022][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:046][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:069][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:091][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:113][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:138][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:161][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:184][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:208][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:231][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:254][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:279][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:301][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:325][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:349][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:374][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:396][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:421][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:444][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:468][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:492][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:516][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:540][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:564][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:587][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:611][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:635][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:659][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:684][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:709][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:732][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:758][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:782][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:808][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:834][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:857][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:882][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:908][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:932][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:956][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.35:979][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:003][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:027][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:054][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:077][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:102][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:127][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:150][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:174][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:198][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:229][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:253][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:277][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:302][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:327][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:351][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:376][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:401][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:425][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:448][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:473][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:497][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:520][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:543][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:568][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:593][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:617][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:642][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:665][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:688][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:713][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:736][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:761][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:785][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:809][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:832][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:857][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:880][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:905][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:929][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:951][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:975][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.36:998][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:022][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:045][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:068][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:092][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:116][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:138][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:163][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:186][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:209][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:232][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:255][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:280][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:303][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:327][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:351][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:374][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:398][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:422][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:445][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:469][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:494][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:518][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:541][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:565][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:588][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:610][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:635][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:660][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:683][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:707][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:730][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:754][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:777][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:801][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:824][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:849][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:873][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:897][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:920][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:943][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:967][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.37:990][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:013][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:035][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:058][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:082][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:106][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:130][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:154][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:178][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:201][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:225][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:249][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:272][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:296][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:320][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:344][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:367][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:391][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:415][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:436][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:461][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:485][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:509][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:532][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:556][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:579][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:602][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:624][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:649][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:672][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:696][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:719][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:743][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:767][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:790][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:813][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:838][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:861][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:885][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:908][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:932][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:955][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.38:978][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:002][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:026][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:050][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:075][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:098][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:121][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:145][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:167][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:190][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:214][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:241][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:265][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:288][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:312][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:335][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:358][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:381][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:404][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:427][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:451][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:475][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:498][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:520][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:544][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:566][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:589][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:612][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:635][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:658][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:681][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:705][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:727][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:750][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:774][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:797][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:821][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:844][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:867][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:890][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:914][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:936][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:961][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.39:984][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:008][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:031][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:054][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:078][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:100][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:125][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:148][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:171][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:195][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:218][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:241][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:265][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:289][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:312][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:335][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:357][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:379][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:404][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:426][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:450][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:474][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:496][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:520][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:544][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:568][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:592][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:615][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:638][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:660][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:683][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:707][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:731][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:753][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:778][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:802][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:826][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:850][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:875][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:898][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:922][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:946][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:970][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.40:994][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:018][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:041][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:065][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:089][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:113][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:137][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:162][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:185][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:210][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:234][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:258][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:281][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:306][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:329][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:352][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:375][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:398][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:422][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:445][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:467][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:491][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:513][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:537][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:561][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:585][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:610][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:633][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:657][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:681][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:704][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:727][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:752][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:776][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:798][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:821][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:844][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:868][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:891][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:913][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:936][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:959][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.41:982][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:007][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:031][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:055][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:077][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:099][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:122][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:146][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:168][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:192][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:213][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:238][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:260][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:285][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:308][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:331][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:353][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:376][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:399][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:424][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:448][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:470][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:493][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:516][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:539][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:561][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:586][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:609][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:633][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:656][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:679][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:702][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:725][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:748][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:771][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:793][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:818][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:841][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:864][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:887][939]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:899][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:900][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:901][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:901][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:901][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:901][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.42:901][939]SourceControl: Error: fatal: Invalid path 'C:/Users/eckho': No such file or directory
+[2024.10.30-03.50.45:704][  0]LogSlate: Window 'View Changes' being destroyed
+[2024.10.30-03.50.45:755][  0]LogSlate: Window 'View Changes' being destroyed
+[2024.10.30-03.50.55:217][257]SourceControl: Revision control is disabled
+[2024.10.30-03.50.57:133][313]LogSlate: Window 'Revision Control Login' being destroyed
+[2024.10.30-03.51.05:930][530]LogSlate: Window 'Revision Control Login' being destroyed
+[2024.10.30-03.51.22:077][890]SourceControl: fatal: I:/UE_5.3/Engine/Content: 'I:/UE_5.3/Engine/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:077][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:077][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:077][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:077][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:077][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'I:/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'I:/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'I:/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'I:/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'I:/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'I:/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'I:/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'I:/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:078][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'I:/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'I:/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'I:/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'I:/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'I:/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Fab/Content: 'I:/UE_5.3/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.22:079][890]SourceControl: fatal: I:/UE_5.3/Engine/Plugins/Bridge/Content: 'I:/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Ziqiu/Documents/GitHub/FA24-FengZ-EckhoffC'
+[2024.10.30-03.51.28:028][890]LogSlate: Window 'Submit Files' being destroyed
+[2024.10.30-03.51.29:325][890]LogSourceControl: commit successful: [final-part aba49d3] yes
+[2024.10.30-03.51.29:461][890]SourceControl: [final-part aba49d3] yes
+[2024.10.30-03.51.29:461][890]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2024.10.30-03.51.29:495][890]SourceControl: Commited [final-part aba49d3] yes.
