@@ -6,7 +6,28 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/MyLevels/FirstLevel.umap"
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/MyLevels/FirstLevel.umap",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/Blueprints/Grab2.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/Blueprints/trophey.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Textures/Gold_Roughness.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Textures/Gold_base_color.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Textures/Gold_Metalness.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Textures/Gold_Normal.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Materials/Goldbase.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Props/World_Cup_Trophy.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Props/Group32300.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Props/Group15520.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/Blueprints/Ring.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Props/Group8143.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Textures/Red.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/VRTemplate/Input/IMC_Weapon_Right.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/Blueprints/AmmoPistol.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/Trophy_Mat.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/uploads_files_863594_Trophy.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/Gold_Roughness.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/Goldbase.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/World_Cup_Trophy.uasset",
+				"C:/Users/eckho/Desktop/FA24-FengZ-EckhoffC/HW2/Content/StarterContent/Props/MaterialSphere.uasset"
 			]
 		}
 	]
