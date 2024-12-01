@@ -1,5 +1,8 @@
 # FA24-FengZ-EckhoffC
 
+
+# HW1
+
 ## Cody Eckhoff
 * Created the new project
 * Made the Ammo pickup
@@ -35,3 +38,29 @@
   | 10/18 | Breifly met at lab but did not discuss HW1, decided to wait until next day |
   | 10/19 | Went over what had gotten done, what was left, and who exactly was going to do what  |
   | 10/25 | No Lab |
+
+  # HW2
+  
+  ## Cody Eckhoff
+
+
+  ## Ziqiu Feng
+
+
+  ## How does it work?
+
+
+  ## What was used
+
+
+  ## Meeting times
+
+
+  | Date | What was discussed |
+  |------|--------------------|
+  |  |  |
+  |  |  |
+  |  |  |
+  |  |  |
+  |  |  |
+  |  |  |
