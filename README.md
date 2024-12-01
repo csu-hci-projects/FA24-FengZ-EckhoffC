@@ -42,15 +42,26 @@
   # HW2
   
   ## Cody Eckhoff
-
+  * Created the VR project
+  * Created the teleportation area
+  * added 3 Unique grab interactables
+  * Added delayed reload feature
+  * added Targets
+  * Modifyed the level blueprint to track targets destroyed
+  * Created unloackable no-teleport area
+  * Created Win Level
 
   ## Ziqiu Feng
+  * Added pistol UI
+  * Added limits to stop shooting at 0 ammo
+  * added basic reload function
 
 
   ## How does it work?
 
 
   ## What was used
+  * https://www.youtube.com/watch?v=0q2ij542l90 (to Create Menu)
 
 
   ## Meeting times
