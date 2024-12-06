@@ -50,11 +50,14 @@
   * Modifyed the level blueprint to track targets destroyed
   * Created unloackable no-teleport area
   * Created Win Level
+  * Did gameplay demo
 
   ## Ziqiu Feng
   * Added pistol UI
   * Added limits to stop shooting at 0 ammo
   * added basic reload function
+  * Wrote most of AI report
+  * Did blueprint detail video
 
 
   ## How does it work?
