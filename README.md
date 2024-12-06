@@ -64,7 +64,8 @@
 
   ## How does it work?
   Our game first starts off with the player actor spawning into the first VR level, where the player is confined to a nav mesh and the teleportation area is limited, the world has a pistol and 3 grabbale objects laid out in front of the player where they can grab using their VR controllers.
-  Beside the pistol and objects, there are three targets that the player must destroy by shooting them with the pistol. Every target takes two shots to destroy. After 3 targets have been destroyed, the nav mesh confining the player is lifted, allowing the player to teleport freely. After all targets have been destroyed, the player passes the level and will be teleported to the win screen level indicating that they have won.
+  The pistol has limited ammo (30 max) and every shot decrements the ammo count by 1, once the ammo count reaches zero the pistol does not spawn any more projectiles (cannot shoot), then the player has to press reload to get back to 30 ammo again to continue shooting.
+  Beside the pistol and objects, there are three targets that the player must destroy by shooting them with the pistol. Every target takes two shots to destroy, the color of the target indicates how many times it's been shot. After 3 targets have been destroyed, the nav mesh locked area surrounding the targets is lifted, allowing the player to teleport freely. After all targets have been destroyed, the player passes the level and will be teleported to the win screen level indicating that they have won.
 
   ## What was used
   * We used all of the lab videos, specifically VR video 3-5 which gave us almost everything we needed to complete most of the blueprints. We used the corresponding book chapters, and also additional sources from unreal engine documentation.
