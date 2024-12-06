@@ -79,9 +79,8 @@
 
   | Date | What was discussed |
   |------|--------------------|
-  |  |  |
-  |  |  |
-  |  |  |
-  |  |  |
-  |  |  |
-  |  |  |
+  | 11/2 | Talked about how class was going and looked at next steps |
+  | 11/9 | Went over the HW2 and started to decide who was going to do what |
+  | 11/16 | Checked in on how things were going and how much was left to get done |
+  | 11/23 | Talked about what was left, and what are path to getting it done was|
+  | 11/30 | Did a final check in to make sure everything was done except final touches |
